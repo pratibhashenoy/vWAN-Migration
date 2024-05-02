@@ -1,7 +1,9 @@
 # Azure vWAN Migration Guide: Keeping NVA Functionality in an Updated Hub-and-Spoke Architecture
 
 ## What's This Guide For?
-This high-level guide assists you in transitioning from a traditional network setup to Azure's Virtual WAN, keeping your Network Virtual Appliances (NVAs) working just as before. In scenarios where there is a traditional Hub Virtual Network with an NVA directing all traffic between On-premises and Azure and vice versa through the NVA and in cases where the requirement is that the same functionality of NVA routing must be maintained after migrating to Azure Virtual WAN i.e. The NVA will still reside in the Virtual Network and not Virtual WAN Hubs (Secure Hub).
+This high-level guide assists you in transitioning from a traditional network setup to Azure's Virtual WAN, keeping your Network Virtual Appliances (NVAs) working just as before. 
+
+In scenarios where there is a traditional Hub Virtual Network with an NVA directing all traffic between On-premises and Azure and vice versa through the NVA, where the requirement is that the same functionality of NVA routing must be maintained after migrating to Azure Virtual WAN i.e. The NVA will still reside in the Virtual Network and not Virtual WAN Hubs (Secure Hub).
 
 ## Why Use This Guide?
 - Your preferred NVA isn't supported in Virtual WAN Hubs yet.
